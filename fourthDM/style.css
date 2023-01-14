@@ -1,0 +1,526 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all 0.3 linear;
+ }
+
+  span{
+    color: #03a4ed !important; ;
+  }
+  em{
+    color:#fd7e14 !important ;
+  }
+  #navLinks { 
+    justify-content: flex-end;
+  }
+  
+  #home, #about, #services,#contact  {
+    margin: 2em 1em 0 1em;
+    font-size: large;
+  }
+  
+   #brand_name {
+    font-size: 1.75em;
+    font-weight: 500;
+    padding-top: 4vh;
+  } 
+  
+  #bavbar-button {
+    align-items: flex-end;
+  }
+  
+
+   html {
+    font-size:80.5%;
+  }
+  
+
+  
+ 
+/* know more */
+#know 
+{
+  background-color:#36454F;
+    height: auto;
+  
+    color: #fff !important;
+}
+#know.container{
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+ 
+}
+
+/* section color */
+  #info {
+    background-color:#101017 ;
+    height: 95vh;
+    display: flex;
+    color: #fff !important;
+  }
+  #info h2{
+    color: #fff !important;
+  }
+  #info em {
+    font-style: normal;
+    color: #03a4ed;
+  }
+  #info span {
+    color:#fd7e14;
+  }
+  #info .row{
+    padding-top: 10%;
+  }
+  #info .right-content{
+  line-height: 72px;
+  }
+  
+
+  /* information */
+  .information {
+    background-color:#36454F ;
+    height: auto;
+   
+   color: #fff ;
+  }
+.information .row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+  }
+.information > i{
+    color: #fd7e14 !important;
+  }
+
+  
+
+/* why */
+ #why {
+    background-color:#1B1212 ;
+    height:auto;
+    
+    color: #fff;
+  }
+  #why span{
+   color:  #03a4ed !important;
+  }
+  #why .btn >a{
+    color: #fff !important ;
+    float: right;
+    padding-left: 50%;
+  }
+  #slider{
+    background-color:#101017 ;
+    height: auto;
+   
+    color: #fff !important;
+  }
+
+
+  /* All form Section */
+  #Services-form{
+    background-color: rgb(0,0,0,0.8);
+    height: 100vh;
+    
+  }
+  #servicesform_home >label{
+    color: #fff !important;
+  }
+  #Services-form h3{
+    color: #f7eff1;
+    text-align: center;
+  }
+#Services{
+  background-color: #4e4e4e !important ;
+    height: auto;
+   
+    color: #fff !important;
+}
+
+ /* 1st banner */
+ a{
+  text-decoration: none;
+ }
+h2{
+  text-align: center;
+}
+#Services-form.container{
+align-items: center;
+margin-top: 50px;
+width: 100%;
+height: auto;
+display:flex;
+flex-wrap: wrap;
+}
+#Services-form .cards{
+   border-radius: 50%;
+   width: 18rem;
+   height: 30rem;
+   text-decoration-color: black !important;
+}
+
+#Services-form .card-title{
+   text-align: center;
+   text-decoration: solid;
+  
+}
+#Services-form #form2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+ /* services page */
+ #ourservicespage{
+  background-color:#101017 ;
+    height: auto;
+   
+    color: #fff !important;
+ }
+ #ourservicespage .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+ 
+ /* services bar */
+ 
+ #Services{
+  height: auto;
+ }
+ .our-services {
+   margin-top: 0px;
+   padding-top: 120px;
+ }
+ 
+ .our-services .left-image {
+   margin-right: 45px;
+ }
+ 
+ .our-services .section-heading h2 {
+   margin-right: 100px;
+ }
+ 
+ .our-services .section-heading p {
+   margin-top: 30px;
+   margin-bottom: 60px;
+ }
+ 
+ .our-services .progress-skill-bar {
+   margin-bottom: 30px;
+   position: relative;
+   width: 100%;
+ }
+ 
+ .our-services .progress-skill-bar span {
+   position: absolute;
+   top: 0;
+   font-size: 18px;
+   font-weight: 600;
+   color: #03a4ed;
+ }
+ 
+ .our-services .first-bar span {
+   left: 69%;
+ }
+ 
+ .our-services .second-bar span {
+   left: 81%;
+ }
+ 
+ .our-services .third-bar span {
+   left: 88%;
+ }
+ 
+ .our-services .progress-skill-bar h4 {
+   font-size: 18px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-bottom: 14px;
+ }
+ 
+ .our-services .progress-skill-bar .full-bar {
+   width: 100%;
+   height: 6px;
+   border-radius: 3px;
+   background-color: #f7eff1;
+   position: relative;
+   z-index: 1;
+ }
+ 
+ .our-services .progress-skill-bar .filled-bar {
+   background: rgb(255, 150, 30);
+   background: linear-gradient(105deg, rgb(255, 161, 30) 0%, rgb(255, 160, 44) 100%);
+   height: 6px;
+   border-radius: 3px;
+   margin-bottom: -6px;
+   position: relative;
+   z-index: 2;
+ }
+ 
+ .our-services .first-bar .filled-bar {
+   width: 71%;
+ }
+ 
+ .our-services .second-bar .filled-bar {
+   width: 83%;
+ }
+ 
+ .our-services .third-bar .filled-bar {
+   width: 90%;
+ }
+ #footer #icons{
+  background-color: #2a2a2a;
+  display: inline;
+  align-items: center;
+ 
+ }
+
+ /* process */
+ #process{
+  height: auto;
+ }
+ /* Our Client */
+ #companyLogo .row{
+ 
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+ 
+}
+ #companyLogo{
+  background-color: #353935  !important;
+  height: auto;
+  color: rgb(255, 255, 255) !important;
+ }
+
+ 
+#companyLogo h3{
+  text-align: center;
+  padding-top: 20px;
+}
+
+ /* team */
+ #team{
+  align-items: center !important;
+  background-color:#343437 ;
+  height: auto;
+ 
+  color: rgb(255, 255, 255) !important;
+ }
+ #team .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#team h3{
+  text-align: center;
+  padding-top: 20px;
+}
+#team p{font-weight: 500px;}
+#team .card{
+  border-radius: 0;
+  box-shadow: 5px 5px 10px #fcb901;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+ width: 15rem;
+  height: 25rem;
+  text-align: center;
+  background: #2c87ff !important; 
+}
+#team .card-body{
+  text-decoration-color:black  !important ;
+} 
+
+#team .card:hover{
+  background: #ea9744 !important; 
+  text-decoration-color:#fff !important;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #00b3ff;
+}
+#team .card:hover h3, #team .card:hover i{
+  text-decoration-color:#fff !important;
+}
+
+
+
+/* footer */
+#footer  .socialIcon{
+ 
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  
+}
+
+#footer >a{
+  text-decoration: none;
+}
+#footer .socialIcon{
+  align-items: center;
+}
+.fix p{
+  float: right;
+}
+
+.fix i{
+  float:left;
+}
+
+#footer i{
+  align-items: center!important;
+}
+#footer .row{
+  align-items: center !important;
+  text-decoration: none !important;
+}
+/* webdesign */
+
+#webdesign  .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+
+/* media Query section  992px */
+@media (max-width: 62em) {
+  html{
+    font-size: 75.5%;
+  }
+#info .left-image img{
+ 
+  height: 300px;
+  width: 500px;
+}
+
+
+   .information img{
+    height: 300px;
+    width: 500px;
+  }
+  #why .left-image{
+    height: 150px;
+    width: 100px;
+  }
+  #Services img{
+    height: 300px;
+    width: 500px;
+    float: right;
+   }
+  
+ #team .row {
+ 
+  align-items: center;
+
+ }
+ #process{
+  height: 50vh;
+ }
+ #companyLogo .container .row{
+  align-items: center;
+   padding-right: 30%;
+  
+ }
+
+ 
+}
+@media (max-width:576px) {
+  #Services-form{
+    font-size:65%;
+  }
+
+}
+
+@media (max-width:560px) {
+  #Services .row .left-image img{
+    align-items: center;
+    padding-left: 30%;
+  height: 300px;
+  width: 500px;
+ }
+ #companyLogo .row{
+  padding-left:20%;
+    align-items: center;
+ }
+ #info .row .right-content{
+ font-size: xx-small  !important;
+  
+}
+
+ 
+  #team .row {
+    padding-left:20%;
+    align-items: center;
+   }
+
+  #process{height: 50vh;
+  }
+  #process img{
+    padding-top: 35%;
+  }
+}
+
+/* About Us section */
+#about .row{
+ align-items: center;
+  background-color:#101017 ;
+    height: 100vh;
+   
+    color: #fff !important;
+}
+@media (max-width:900px) {
+  #about .row .right-content{
+    padding-bottom: 0%;
+    font-size: small;
+  }
+  #about .row .left-img img{
+  height: 300px;
+  width: 500px;
+  }
+}
+@media (max-width:500px) {
+  #about .row.right-content{
+    font-size: smaller;
+  }
+  #about .row .left-img img{
+  padding-top: 0%;
+
+  height: 300px;
+  width: 300px;
+  }
+  #info .row .right-content{
+    font-size: xx-small;
+     
+   }
+   #companyLogo{
+    height: auto;
+  }}
+
+   /* team comment section  */
+@media(max-width:1130){
+  #team{
+    height: auto;
+  }
+  #companyLogo{
+    height: auto;
+  }
+}
+
+
+
+ 
+  
